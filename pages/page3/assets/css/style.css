@@ -1,0 +1,362 @@
+/* General Styles */
+body {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #333;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    background: none;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+    outline: none;
+}
+
+.hero-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/image/hero-background.jpg');
+    background-size: cover;
+    padding: 50px 20px;
+}
+
+.hero-image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #ff4500;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+.car-image-container {
+    margin: 20px;
+    position: relative;
+}
+
+.car-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.car-image img:hover {
+    transform: scale(1.05);
+}
+
+.car-info {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    flex: 1;
+    max-width: 600px;
+}
+
+.car-info h2,
+.car-info h3,
+.car-info h4 {
+    margin: 10px 0;
+}
+
+.stats-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.stats-header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.stats-icon {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.stats-content-container {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.3s;
+    margin-bottom: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.stats-content-container:hover {
+    background-color: #444;
+}
+
+.stats-content p {
+    margin: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.stats-content-container:hover .stats-content p {
+    opacity: 1;
+}
+
+.feature-section {
+    background: url('https://images.squarespace-cdn.com/content/v1/53da9f0ce4b0243bef9098b9/1575429087831-1SEYHZGX4Q1OVBC2S8ZI/giphy+(4).gif');
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.feature-box1 {
+    flex: 1 1 45%;
+    background: url('https://static.wikia.nocookie.net/initiald/images/0/0c/Fujiwara_zone_S5A4.gif/revision/latest?cb=20220728133918');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-box2 {
+    flex: 1 1 45%;
+    background: url('https://fc00.deviantart.net/fs71/f/2012/324/d/7/initial_d_by_aimesick-d5lny6h.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-box3{
+    flex: 1 1 45%;
+    background: url('https://i.pinimg.com/originals/6f/6c/32/6f6c328f76c86cc3952c58c5d1c4bec5.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-box4{
+    flex: 1 1 45%;
+    background: url('https://c.tenor.com/etHGEQ8eOpIAAAAC/initiald-car.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-content1 {
+    background: url('https://static.wikia.nocookie.net/initiald/images/0/0c/Fujiwara_zone_S5A4.gif/revision/latest?cb=20220728133918');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-content2 {
+    background: url('https://fc00.deviantart.net/fs71/f/2012/324/d/7/initial_d_by_aimesick-d5lny6h.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-content3 {
+    background: url('https://i.pinimg.com/originals/6f/6c/32/6f6c328f76c86cc3952c58c5d1c4bec5.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-content4 {
+    background: url('https://c.tenor.com/etHGEQ8eOpIAAAAC/initiald-car.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price-container {
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 0px;
+    width: 100%;
+    max-width: 1480px;
+    margin-top: 0px;
+    box-shadow: #1f1f1f;
+    text-align: center;
+}
+
+.price {
+    color: #ffffff;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    display: flex;
+    justify-content: space-around;
+    background-color: #605e5e;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #ff6347;
+}
+
+
+.nav-button, .hero-button {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+.nav-button::before, .hero-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 99, 71, 0.5);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.5s ease;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.nav-button:hover::before, .hero-button:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.nav-button:hover, .hero-button:hover {
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
