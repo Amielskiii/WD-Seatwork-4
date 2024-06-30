@@ -113,7 +113,7 @@ main {
 .car-info {
     font-family: 'Pixelify Sans', sans-serif;
     background-color: rgba(0, 0, 0, 0.259);
-    padding: 20px; /* Adjusted padding */
+    padding: 20px; 
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -210,8 +210,8 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #333; /* Dark background color */
-    color: white; /* Text color */
+    background-color: #333; 
+    color: white; 
 }
 
 .footer-section {
@@ -234,12 +234,12 @@ footer {
 }
 
 .footer-section ul li a {
-    color: white; /* White text color */
-    text-decoration: none; /* Remove underline */
+    color: white; 
+    text-decoration: none; 
 }
 
 .footer-section ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 * {
@@ -312,7 +312,7 @@ header {
     align-items: center;
     height: 100vh; /* Full viewport height */
     background-color: #ffffff;
-    background-image: url('assets/image/AE86_5-removebg-preview.png'); /* Hero background image */
+    background-image: url('assets/image/AE86_5-removebg-preview.png'); 
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -329,7 +329,7 @@ header {
 
 .hero-content {
     flex: 1;
-    background-color: rgb(255, 255, 255); /* Semi-transparent background */
+    background-color: rgb(255, 255, 255); 
     padding: 20px;
 }
 
@@ -343,7 +343,7 @@ header {
     font-size: 1.5rem;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #000000; /* White text color */
+    color: #000000; 
 }
 
 .hero-button {
